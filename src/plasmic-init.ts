@@ -1,4 +1,5 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-react";
+import { HelloWorld } from "./components/HelloWorld";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
@@ -10,3 +11,11 @@ export const PLASMIC = initPlasmicLoader({
   // Disable for production to ensure you render only published changes.
   preview: true,
 })
+
+PLASMIC.registerComponent(HelloWorld, {
+  name: 'HelloWorld',
+  props: {
+    verbose: 'boolean',
+    children: 'slot'
+  }
+});

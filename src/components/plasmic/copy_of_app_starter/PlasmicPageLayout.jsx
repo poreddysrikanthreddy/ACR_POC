@@ -20,7 +20,6 @@ import { RichLayout } from "@plasmicpkgs/plasmic-rich-components"; // plasmic-im
 import { LoadingBoundary } from "@plasmicpkgs/plasmic-basic-components"; // plasmic-import: u-J0rH0B-4/codeComponent
 import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
-import plasmic_plasmic_rich_components_css from "../plasmic_rich_components/plasmic_plasmic_rich_components.module.css"; // plasmic-import: jkU633o1Cz7HrJdwdxhVHk/projectcss
 import projectcss from "./plasmic_copy_of_app_starter.module.css"; // plasmic-import: dXyvLu7j1Po85PHwR2Uoy6/projectcss
 import sty from "./PlasmicPageLayout.module.css"; // plasmic-import: HL0xL_9I3Xn/css
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: F2xiB46suwHU/icon
@@ -66,7 +65,6 @@ function PlasmicPageLayout__RenderFunc(props) {
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
         plasmic_antd_5_hostless_css.plasmic_tokens,
-        plasmic_plasmic_rich_components_css.plasmic_tokens,
         sty.root
       )}
       logoElement={

@@ -23,7 +23,6 @@ import Header from "../../Header"; // plasmic-import: AtHLQN2bcfkz/component
 import Footer from "../../Footer"; // plasmic-import: 0oRBHM_nRQ2h/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
-import plasmic_plasmic_rich_components_css from "../plasmic_rich_components/plasmic_plasmic_rich_components.module.css"; // plasmic-import: jkU633o1Cz7HrJdwdxhVHk/projectcss
 import projectcss from "./plasmic_copy_of_app_starter.module.css"; // plasmic-import: dXyvLu7j1Po85PHwR2Uoy6/projectcss
 import sty from "./PlasmicPlp.module.css"; // plasmic-import: 20nRn2NlYoc1/css
 import Frame3Icon from "./icons/PlasmicIcon__Frame3"; // plasmic-import: JI4s1RJ1gKdT/icon
@@ -146,7 +145,6 @@ function PlasmicPlp__RenderFunc(props) {
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
             plasmic_antd_5_hostless_css.plasmic_tokens,
-            plasmic_plasmic_rich_components_css.plasmic_tokens,
             sty.root
           )}
         >
